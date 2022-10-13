@@ -1,0 +1,77 @@
+*{
+  font-family: 'Lato', sans-serif;  
+    
+}
+
+h1{
+    text-transform: uppercase;
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100;
+    font-size: 45px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h4, h3 {
+  text-transform: uppercase;
+
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 32.33%;
+}
+
+div > img{
+    width: 80%;
+    height: 400px;
+}
+
+.column > p{
+    padding-right: 20px;
+
+}
+
+.column > h4{
+    font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.left {
+  padding: 8px;
+  border: 1px solid green;
+}
+
+.right {
+  padding: 8px;
+  border: 1px solid red;
+}
